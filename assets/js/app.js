@@ -5,6 +5,8 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 const range = document.getElementById("range");
 const selectedEffect = document.querySelector("select");
+document.body.width = window.innerWidth;
+document.body.height = window.innerHeight;
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 const particlesArray = [];
@@ -82,12 +84,10 @@ function effect() {
 }
 
 function animate() {
-  console.log(selectedEffect.value);
   effect();
   ctx.fillStyle = "rgba(0, 0, 0," + range.value + ")";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   hue += 2;
-  console.log(color);
   requestAnimationFrame(animate);
 }
 
