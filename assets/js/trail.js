@@ -1,4 +1,4 @@
-export default function trailEffect() {
+export default function trailEffect(particlesArray) {
   for (let i = 0; i < particlesArray.length; i++) {
     particlesArray[i].update();
     particlesArray[i].draw();
