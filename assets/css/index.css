@@ -1,0 +1,52 @@
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#canvas1 {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+
+}
+
+
+.control-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.range-container {
+    align-self: center;
+}
+
+#range {
+    direction: rtl;
+    height: 2px;
+}
+
+label {
+    color: #a6a6a6;
+}
+
+select {
+    background: black;
+    color: #a6a6a6;
+}
