@@ -7,9 +7,16 @@ export default function trailEffect(
   height,
   rangeValue
 ) {
+  const image = new Image(width, height);
+  image.src = "/assets/img/bkg.jpg";
+  image.style.objectFit = "cover";
   trailRange.style.display = "block";
-  ctx.fillStyle = "rgba(0, 0, 0," + rangeValue + ")";
-  ctx.fillRect(0, 0, width, height);
+  // ctx.fillStyle = "rgba(0, 0, 0," + rangeValue + ")";
+  // ctx.fillRect(0, 0, width, height);
+  ctx.save();
+  ctx.globalAlpha = 0.1;
+  ctx.drawImage(image, 0, 0, width, height);
+  ctx.restore();
   for (let i = 0; i < particlesArray.length; i++) {
     particlesArray[i].update();
     particlesArray[i].draw();

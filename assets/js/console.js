@@ -13,7 +13,7 @@ export default function consoleText() {
     "margin: 6px 0 6px 0",
     "color: rgba(238,58,136,1)",
   ].join(";");
-  console.log("%cHello World! I'm Emmanuel.", styles);
+  console.log("%cHey! I'm Sumit.", styles);
   console.log("%cThank you for checking out my work!", styles2);
   const gradient = [
     "font-size: 14px",
@@ -25,9 +25,9 @@ export default function consoleText() {
     "background: rgba(238,58,136,1)",
     "background: linear-gradient( 109.6deg, rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% )",
   ].join(";");
-  console.log("%cPortfolio%chttps://bit.ly/3QQr1Ux", gradient, styles2);
-  console.log("%cLinkedin %chttps://bit.ly/3cygAD4", gradient, styles2);
-  console.log("%cGithub   %chttps://bit.ly/3iwQC6U", gradient, styles2);
-  console.log("%cThe README   %chttps://bit.ly/3S9AQgS", gradient, styles2);
+  // console.log("%cPortfolio%chttps:/xyz.com", gradient, styles2);
+  console.log("%cLinkedin %chttps://bit.ly/3HOPx5r", gradient, styles2);
+  console.log("%cGithub   %chttps://bit.ly/3lkoNSO", gradient, styles2);
+  console.log("%cThe README   %chttp://bit.ly/3XncvpY", gradient, styles2);
   console.log("%cHave a wonderful day!", styles2);
 }

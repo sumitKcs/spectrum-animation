@@ -1,5 +1,6 @@
 import trailEffect from "./trail.js";
 import constellationEffect from "./constellation.js";
+import consoleText from "./console.js";
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
@@ -83,7 +84,13 @@ class Particle {
 function effect() {
   if (selectedEffect.value == "1") {
     color = "hsl(" + hue + " ,100%, 50% )";
-    constellationEffect(particlesArray, ctx, canvas.width, canvas.height);
+    constellationEffect(
+      particlesArray,
+      ctx,
+      canvas.width,
+      canvas.height,
+      trailRange.value
+    );
   }
   if (selectedEffect.value == "2") {
     color = "hsl(" + hue + " ,100%, 50% )";
@@ -136,3 +143,4 @@ function swRegistration() {
   }
 }
 swRegistration();
+consoleText();
