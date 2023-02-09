@@ -131,7 +131,7 @@ function swRegistration() {
   ].join(";");
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-      .register("../sw.js", {
+      .register("serviceWorker.js", {
         scope: ".",
       })
       .then(function (registration) {

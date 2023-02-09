@@ -2,7 +2,8 @@ var CACHE_NAME = "constellation-cache-v1";
 var urlsToCache = [
   "./index.html",
   "./assets/css/index.css",
-  "./assets/img/bg.avif",
+  "./assets/img/screen.jpg",
+  "./assets/img/screen2.jpg",
   "./assets/js/app.js",
   "./assets/js/trail.js",
   "./assets/js/constellation.js",

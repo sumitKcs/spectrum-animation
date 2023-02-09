@@ -4,7 +4,7 @@
     --black: #000;
     --white: #fff;
     --text-color: #fdf8f3;
-    --image: #000 url("../img/car.jpg") no-repeat center center/cover;
+    --image: #000 url("../img/screen.avif") no-repeat center center/cover;
     --text-shadow: 1px 1px 15px rgba(255, 245, 201, 0.35), 1px 10px 70px rgba(255, 245, 201, 0.35),
         0px 5px 5px rgba(88, 88, 88, 0.35), -5px 5px 20px rgba(88, 88, 88, 0.35), 5px 5px 20px rgba(88, 88, 88, 0.35);
     --translate: translate3d(-50%, -50%, 0);
@@ -103,7 +103,7 @@ select {
 
 @media (width <=700px) {
     .control-container {
-        font-size: .6rem;
+        font-size: 12px;
         flex-direction: column;
     }
 
