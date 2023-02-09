@@ -1,4 +1,15 @@
-export default function constellationEffect(particlesArray, ctx) {
+const trailRange = document.getElementById("trail-range");
+const bubbleRange = document.getElementById("bubble-range");
+
+export default function constellationEffect(
+  particlesArray,
+  ctx,
+  width,
+  height
+) {
+  trailRange.style.display = "none";
+  bubbleRange.style.display = "block";
+  ctx.clearRect(0, 0, width, height);
   for (let i = 0; i < particlesArray.length; i++) {
     particlesArray[i].update();
     particlesArray[i].draw();
@@ -9,7 +20,7 @@ export default function constellationEffect(particlesArray, ctx) {
       if (distance < 70) {
         ctx.beginPath();
         ctx.strokeStyle = particlesArray[i].color;
-        ctx.lineWidth = 0.1;
+        ctx.lineWidth = 0.4;
         ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
         ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
         ctx.stroke();

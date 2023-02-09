@@ -14,24 +14,29 @@
 
 
     <div class="control-container" id="control-container">
+
         <div class="effect-container" id="effect-container">
-            <label for="effect">Effects </label>
+            <label for="effect">Effects &nbsp;</label>
             <select name="effect" id="effect-selector" class="effect-selector">
-                <option value="1" class="effect effect1" id="effect11">Trail</option>
+                <option value="1" class="effect effect1" id="effect11">Constellation</option>
                 <option value="2" class="effect effect2" id="effect12">Rainbow</option>
-                <option value="3" class="effect effect3" id="effect13">Constellation</option>
+                <option value="3" class="effect effect3" id="effect13">Trail</option>
             </select>
         </div>
-        <div class="range-container" id="range-container">
-            <!-- <label for="range">Effect control</label> -->
-            <input type="range" name="range" id="range" min="0.01" max="0.2" step="0.01">
+
+        <div class="range-container bubble-range" id="bubble-range">
+            <label for="bubble-range">Bubble Size</label>
+            <input type="range" name="bubble-range" data-bubble-range min="7" max="20" step="1">
         </div>
-        <script defer src="assets/js/app.js" type="module"></script>
+        <div class="range-container trail-range" id="trail-range">
+            <label for="trail-range">Trail Size</label>
+            <input type="range" name="trail-range" data-trail-range min="0.01" max="0.2" step="0.01">
+        </div>
     </div>
 
 
 
-    <script src="assets/js/app.js" type="module"></script>
+    <script defer src="assets/js/app.js" type="module"></script>
 </body>
 
 </html>

@@ -1,69 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Bree+Serif&family=Courier+Prime:wght@400;700&family=Cutive&family=Sanchez&display=swap");
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --text-color: #fdf8f3;
+    --image: #000 url("../img/bg.avif") no-repeat center center/cover;
+    --text-shadow: 1px 1px 15px rgba(255, 245, 201, 0.35), 1px 10px 70px rgba(255, 245, 201, 0.35),
+        0px 5px 5px rgba(88, 88, 88, 0.35), -5px 5px 20px rgba(88, 88, 88, 0.35), 5px 5px 20px rgba(88, 88, 88, 0.35);
+    --translate: translate3d(-50%, -50%, 0);
+    --futura: futura-pt, sans-serif;
+}
+
+
 body {
-    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: var(--futura);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    height: 100vh;
+    cursor: pointer;
+    overflow: hidden;
+    background: var(--image);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
 }
 
 #canvas1 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: black;
     overflow: hidden;
-
 }
-
 
 .control-container {
     position: fixed;
     z-index: 1;
     left: 0;
-    top: 0;
+    top: 10px;
     width: 100%;
-    height: 10%;
-    background-color: black;
+    height: fit-content;
     line-height: 2;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    align-content: center;
+    gap: 1rem
 }
 
+.effect-container,
 .range-container {
-    align-self: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-#range {
+input[data-trail-range] {
     direction: rtl;
-    height: 2px;
-
+    height: 3px;
 }
+
+input[data-bubble-range] {
+    height: 3px;
+}
+
 
 label {
     color: #a6a6a6;
+
 }
 
 select {
     background: black;
     color: #a6a6a6;
     padding: 5px;
-    margin: 5px;
     letter-spacing: 1px;
+    outline: none;
+    border: 1px solid #404040;
+    border-radius: 8px;
 }
 
-@media screen and (width <=366px) {
-    label {
-        font-size: 1rem;
-    }
 
-    #range {
-        width: 5rem;
-    }
+.range-container.bubble-range {
+    top: 0;
+    display: block;
+}
 
+.range-container.trail-range {
+    display: block;
+}
+
+@media (width <=700px) {
     .control-container {
-        scale: .8;
+        top: 0;
+        scale: .6;
+        flex-direction: column;
     }
-
 
 }
