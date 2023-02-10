@@ -16,8 +16,8 @@ The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/A
 
 - I made two animation effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">matrix rain effect</a>).
 
-
 #
+
 <br>
 <p id="table-of-contents"><p>
 
@@ -31,9 +31,6 @@ The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/A
 #
 
 <br>
-
-
-
 
 <p id="installation"><p>
 
@@ -63,9 +60,9 @@ open index.html
 
 <a href="https://emjose.github.io/mousetrail-space/">![Live Site](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.webp)</a>
 
-• **[Spectrum Mouse Trail](https://emjose.github.io/mousetrail-space/)** is best viewed on a desktop or laptop computer browser.
+• **[Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/)** is best viewed on a desktop or laptop computer browser.
 
-• **[Spectrum Mouse Trail](https://emjose.github.io/mousetrail-space/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+• **[Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 <br>
 
@@ -82,7 +79,6 @@ open index.html
 - #### [Creating Particles in HTML5 Canvas](https://modernweb.com/creating-particles-in-html5-canvas/)
 
 - #### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
-
 
 <br>
 
