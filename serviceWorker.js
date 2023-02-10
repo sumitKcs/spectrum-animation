@@ -1,13 +1,14 @@
-var CACHE_NAME = "constellation-cache-v1";
-var urlsToCache = [
-  "./index.html",
-  "./assets/css/index.css",
-  "./assets/img/screen.avif",
-  "./assets/img/screen2.avif",
-  "./assets/js/app.js",
-  "./assets/js/trail.js",
-  "./assets/js/constellation.js",
-  "./assets/js/console.js",
+const CACHE_NAME = "constellation-cache-v1";
+const urlsToCache = [
+  "/",
+  "/index.html",
+  "/assets/css/index.css",
+  "/assets/img/screen.avif",
+  "/assets/img/screen2.avif",
+  "/assets/js/app.js",
+  "/assets/js/trail.js",
+  "/assets/js/constellation.js",
+  "/assets/js/console.js",
 ];
 
 self.addEventListener("install", function (event) {
