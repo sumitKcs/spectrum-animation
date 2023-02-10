@@ -1,6 +1,5 @@
 <p id="header"><p>
 
-
 <br>
 
 <p id="project-title"><p>
@@ -9,7 +8,7 @@
 
 <br>
 
-<a href="https://emjose.github.io/mousetrail-space/">![Spectrum Mouse Trail](assets/img/meta-024-constellation.png)</a>
+<a href="https://emjose.github.io/mousetrail-space/">![Spectrum Mouse Trail](/assets/img/meta-024-constellation.png)</a>
 
 #
 
