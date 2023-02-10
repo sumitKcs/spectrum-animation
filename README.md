@@ -8,13 +8,13 @@
 
 <br>
 
-<a href="https://emjose.github.io/mousetrail-space/">![Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.avif)</a>
+<a href="https://sumitkcs.github.io/canvas-animation-effects/">![Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.avif)</a>
 
 The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
 
 - I discovered a YouTube Channel called <a href="https://www.youtube.com/c/Frankslaboratory">Frank's Laboratory</a> with excellent creative coding tutorials.
 
-- I made two animation effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">matrix rain effect</a>).
+- I made two animation effects from Frank's Laboratory (see also <a href="https://sumitkcs.github.io/canvas-animation-effects/">matrix rain effect</a>).
 
 #
 
