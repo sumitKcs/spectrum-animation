@@ -56,9 +56,9 @@ open index.html
 
 <p id="live-site"><p>
 
-<a href="https://emjose.github.io/mousetrail-space/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://github.com/sumitKcs/canvas-animation-effects">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
-<a href="https://emjose.github.io/mousetrail-space/">![Live Site](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.webp)</a>
+<a href="https://github.com/sumitKcs/canvas-animation-effects">![Live Site](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.webp)</a>
 
 • **[Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/)** is best viewed on a desktop or laptop computer browser.
 
