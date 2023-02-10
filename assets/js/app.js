@@ -142,5 +142,5 @@ function swRegistration() {
       });
   }
 }
-// swRegistration();
+swRegistration();
 consoleText();
