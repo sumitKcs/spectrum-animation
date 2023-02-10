@@ -8,39 +8,32 @@
 
 <br>
 
-<a href="https://emjose.github.io/mousetrail-space/">![Spectrum Mouse Trail](./assets/img/meta-024-constellation.png)</a>
+<a href="https://emjose.github.io/mousetrail-space/">![Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.avif)</a>
+
+The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
+
+- I discovered a YouTube Channel called <a href="https://www.youtube.com/c/Frankslaboratory">Frank's Laboratory</a> with excellent creative coding tutorials.
+
+- I made two animation effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">matrix rain effect</a>).
+
 
 #
-
+<br>
 <p id="table-of-contents"><p>
 
 <a href=#table-of-contents>![Table of Contents](https://res.cloudinary.com/dn1e07eul/image/upload/v1659241355/Readme%20Headers/inter-toc_euxbbw.png)</a>
 
-- [100 Days of Code](#100days)
 - [Installation](#installation)
 - [Live Site](#live-site)
 - [Resources](#resources)
-- [Let's Connect!](#lets-connect)
-
-<br>
+- [Let's Connect!](#lets-connect) <br>
 
 #
 
-<p id="100days"><p>
-
-<a href=#100days>![#100DaysOfCode](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389776/Readme%20Headers/inter-100hash_kjpgmt.png)</a>
-
-### Day 24: March 8, 2021
-
-- I discovered a YouTube Channel called <a href="https://www.youtube.com/c/Frankslaboratory">Frank's Laboratory</a> with excellent creative coding tutorials.
-
-- For Day 24, I made five mouse trail effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">one</a>, <a href="https://github.com/emjose/mousetrail-particle2/#header">two</a>, <a href="https://github.com/emjose/mousetrail-particle3/#header">three</a>, <a href="https://github.com/emjose/mousetrail-particle4/#header">four</a>).
-
-- The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
-
 <br>
 
-#
+
+
 
 <p id="installation"><p>
 
@@ -49,7 +42,7 @@
 #### 1. Git clone and cd into the repo folder:
 
 ```console
-git clone git@github.com:emjose/mousetrail-space.git && cd mousetrail-space
+https://github.com/sumitKcs/canvas-animation-effects.git && cd canvas-animation-effects
 ```
 
 #### 2. Run the command:
@@ -58,7 +51,7 @@ git clone git@github.com:emjose/mousetrail-space.git && cd mousetrail-space
 open index.html
 ```
 
-#### 3. On your device, move the cursor around to see the mouse trail effect.
+#### 3. On your device, move the mouse cursor around the screen or move your finger around the screen on touch devices to see the mouse trail effect.
 
 <br>
 
@@ -66,7 +59,7 @@ open index.html
 
 <p id="live-site"><p>
 
-<a href="https://emjose.github.io/mousetrail-space/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://emjose.github.io/mousetrail-space/">![Live Site](/assets/img/preview.webp)</a>
 
 <a href="https://emjose.github.io/mousetrail-space/">![Live Site](Assets/024-spectrum.gif)</a>
 
