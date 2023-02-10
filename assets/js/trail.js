@@ -8,7 +8,7 @@ export default function trailEffect(
   rangeValue
 ) {
   const image = new Image(width, height);
-  image.src = "./assets/img/screen2.avif";
+  image.src = "/assets/img/screen2.avif";
   image.style.objectFit = "cover";
   trailRange.style.display = "block";
   // ctx.fillStyle = "rgba(0, 0, 0," + rangeValue + ")";
