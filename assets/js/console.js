@@ -25,7 +25,7 @@ export default function consoleText() {
     "background: rgba(238,58,136,1)",
     "background: linear-gradient( 109.6deg, rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% )",
   ].join(";");
-  // console.log("%cPortfolio%chttps:/xyz.com", gradient, styles2);
+  console.log("%cTwitter %chttps://bit.ly/3Ide5GF", gradient, styles2);
   console.log("%cLinkedin %chttps://bit.ly/3HOPx5r", gradient, styles2);
   console.log("%cGithub   %chttps://bit.ly/3lkoNSO", gradient, styles2);
   console.log("%cThe README   %chttp://bit.ly/3XncvpY", gradient, styles2);
