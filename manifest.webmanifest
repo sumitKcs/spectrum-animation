@@ -23,8 +23,8 @@
   "background_color": "#000000",
   "display": "standalone",
   "lang": "en-US",
-  "id": "http://127.0.0.1:5500/",
-  "start_url": "/",
-  "scope": "/",
+  "id": "https://sumitKcs.github.io/canvas-animation-effect/",
+  "start_url": "/canvas-animation-effect/",
+  "scope": "/canvas-animation-effect/",
   "description": "A mousetrail animation app."
 }

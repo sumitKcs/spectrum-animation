@@ -6,7 +6,7 @@
 
 <a href=#table-of-contents>![Spectrum Mouse Trail](https://res.cloudinary.com/dn1e07eul/image/upload/v1659385855/Readme%20Headers/inter-024-spectrum_hri2gh.png)</a>
 
-<br>
+<br>`
 
 <a href="https://sumitkcs.github.io/canvas-animation-effects/">![Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.avif)</a>
 
