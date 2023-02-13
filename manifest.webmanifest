@@ -1,6 +1,6 @@
 {
-  "name": "Constellation Effect by Sumit",
-  "short_name": "Constellation Effect",
+  "name": "Spectrum Effect by Sumit",
+  "short_name": "Spectrum Effect",
   "icons": [
     {
       "src": "assets/img/android-chrome-192x192.png",
@@ -23,8 +23,8 @@
   "background_color": "#000000",
   "display": "standalone",
   "lang": "en-US",
-  "id": "https://sumitKcs.github.io/canvas-animation-effect/",
-  "start_url": "/canvas-animation-effect/",
-  "scope": "/canvas-animation-effect/",
+  "id": "https://sumitKcs.github.io/spectrum-animation/",
+  "start_url": "/spectrum-animation/",
+  "scope": "/spectrum-animation/",
   "description": "A mousetrail animation app."
 }
