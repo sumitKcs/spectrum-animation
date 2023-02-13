@@ -8,7 +8,7 @@
 
 <br>`
 
-<a href="https://sumitkcs.github.io/canvas-animation-effects/">![Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.avif)</a>
+<a href="https://sumitkcs.github.io/spectrum-animation/">![Spectrum Mouse Trail](https://sumitkcs.github.io/spectrum-animation/assets/img/preview.avif)</a>
 
 The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
 
@@ -39,7 +39,7 @@ The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/A
 #### 1. Git clone and cd into the repo folder:
 
 ```console
-https://github.com/sumitKcs/canvas-animation-effects.git && cd canvas-animation-effects
+https://github.com/sumitKcs/spectrum-animation.git && cd spectrum-animation
 ```
 
 #### 2. Run the command:
@@ -56,13 +56,13 @@ open index.html
 
 <p id="live-site"><p>
 
-<a href="https://github.com/sumitKcs/canvas-animation-effects">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://github.com/sumitKcs/spectrum-animation">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
-<a href="https://sumitkcs.github.io/canvas-animation-effects/">![Live Site](https://sumitkcs.github.io/canvas-animation-effects/assets/img/preview.webp)</a>
+<a href="https://sumitkcs.github.io/spectrum-animation/">![Live Site](https://sumitkcs.github.io/spectrum-animation/assets/img/preview.webp)</a>
 
-• **[Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/)** is best viewed on a desktop or laptop computer browser.
+• **[Spectrum Mouse Trail](https://sumitkcs.github.io/spectrum-animation/)** is best viewed on a desktop or laptop computer browser.
 
-• **[Spectrum Mouse Trail](https://sumitkcs.github.io/canvas-animation-effects/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+• **[Spectrum Mouse Trail](https://sumitkcs.github.io/spectrum-animation/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 <br>
 
