@@ -10,6 +10,7 @@
 
 <a href="https://sumitkcs.github.io/spectrum-animation/">![Spectrum Mouse Trail](https://sumitkcs.github.io/spectrum-animation/assets/img/preview.avif)</a>
 
+### Spectrum Mouse Trail Animation using Canvas API
 #
 
 <br>
